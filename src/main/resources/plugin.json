@@ -1,0 +1,6 @@
+{
+  "id": "zygote",
+  "version": "1.0.0",
+  "main": "net.minespree.zygote.ZygotePlugin",
+  "author": "Minespree"
+}

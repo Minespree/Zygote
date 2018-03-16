@@ -1,0 +1,20 @@
+{
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379,
+    "password": null,
+    "maxConnections": 8
+  },
+  "tickRate": 20,
+  "balancers": [
+    {
+      "type": "fastGame",
+      "package": "skywars",
+      "minimum": 3,
+      "maximum": 100,
+      "minimumSpare": 3,
+      "maximumSpare": 10,
+      "serverPrefix": "sw"
+    }
+  ]
+}
